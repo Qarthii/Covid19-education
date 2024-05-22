@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Education</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #4b0082;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #4b0082;
+        }
+        .content {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #4b0082;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #4b0082;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>COVID-19 Education</h1>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>About COVID-19</h2>
+            <p>COVID-19, also known as the coronavirus, is an infectious disease caused by the SARS-CoV-2 virus. It emerged in late 2019 and has led to a global pandemic. Understanding the disease, its transmission, and how to protect oneself is crucial for public health.</p>
+        </div>
+        <div class="content">
+            <h2>Transmission and Symptoms</h2>
+            <p>COVID-19 spreads primarily through respiratory droplets when an infected person coughs, sneezes, or talks. Common symptoms include fever, cough, and shortness of breath. In severe cases, it can lead to pneumonia, acute respiratory distress syndrome (ARDS), and death.</p>
+        </div>
+        <div class="content">
+            <h2>Prevention and Protection</h2>
+            <p>To prevent the spread of COVID-19, it is important to practice good hygiene, such as washing hands frequently, wearing masks, maintaining physical distance, and avoiding large gatherings. Vaccination is also a key tool in controlling the pandemic.</p>
+        </div>
+        <div class="content">
+            <h2>Resources</h2>
+            <p>For more information on COVID-19, visit the following resources:</p>
+            <ul>
+                <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">World Health Organization (WHO)</a></li>
+                <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" target="_blank">Centers for Disease Control and Prevention (CDC)</a></li>
+                <li><a href="https://www.nih.gov/coronavirus" target="_blank">National Institutes of Health (NIH)</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 COVID-19 Education. All rights reserved.</p>
+    </footer>
+</body>
+</html>
